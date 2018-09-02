@@ -1,0 +1,25 @@
+{
+    "headerMenu": [
+        { "key": "m1", "title": "", "icon": "arrows-alt" },
+        { "key": "m2", "title": "", "icon": "notification",
+            "group": [
+                { "key": "m31", "title": "group 1", "children": [
+                        { "key": "m311", "title": "group 1-1"},
+                        { "key": "m312", "title": "group 1-2"}
+                    ]
+                },
+                { "key": "m32", "title": "group 2", "children": [
+                        { "key": "m321", "title": "group 2-1", "disabled": true},
+                        { "key": "m322", "title": "group 2-2"}
+                    ]
+                }
+            ]
+        },
+        { "key": "m3", "title": "设置", "icon": "setting",
+            "children": [
+                { "key": "m21", "title": "个人中心", "icon": "user", "disabled": true},
+                { "key": "m22", "title": "退出登陆", "icon": "logout"}
+            ]
+        }
+    ]
+}

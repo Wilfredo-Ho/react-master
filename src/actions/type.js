@@ -1,0 +1,2 @@
+
+export const SET_FULL_HEIGHT = 'SET_FULL_HEIGHT';
