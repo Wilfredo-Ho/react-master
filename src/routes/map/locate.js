@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
-import BMap from 'BMap';
 import { resolve } from 'path';
 import { message } from 'antd';
 
 let map = null;
+
+const { BMap } = window;
+
 class Locate extends Component {
     callback (data) {
         console.log(data)
